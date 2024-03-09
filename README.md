@@ -1,1 +1,5 @@
-LASSO-Regression-From-Scratch-in-Python
+LASSO (Least Absolute Shrinkage and Selection Operator) regression is a type of linear regression that incorporates a regularization term known as the L1 penalty into the model's loss function. This penalty term is added to the sum of squared residuals, and it penalizes the absolute magnitude of the coefficients of the features, forcing some of them to become exactly zero.
+
+The main objective of LASSO regression is to perform variable selection and produce a simpler model by shrinking the coefficients of less important features to zero. This helps in preventing overfitting and improving the model's interpretability by identifying and excluding irrelevant features.
+
+LASSO regression is particularly useful when dealing with high-dimensional datasets where the number of features exceeds the number of observations, as it automatically selects a subset of relevant features while estimating the coefficients of the remaining ones. It is widely used in various fields such as statistics, economics, and machine learning.
